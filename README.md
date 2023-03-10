@@ -5,8 +5,8 @@ Playwright test automation project for VoucherCodes
 1. Run 'node -v' to see if NodeJS is installed on your computer. If not, follow the instructions: https://docs.npmjs.com/downloading-and-installing-node-js-and-npms
 2. Run 'npm install -g npm' to install the latest version of npm
 3. Run 'npm init playwright@latest'. Select 'JavaScript', 'tests', 'no' and 'true' (Full installation instructions: https://playwright.dev/docs/intro#installing-playwright)
-4. Follow Playwright JavaScript installation instruction: https://playwright.dev/docs/intro#installing-playwright
-5. Run 'npm run test' to run all tests
+4. When you see 'playwright.config.js already exists. Override it?' message, select false
+5. After the installation, run 'npm run test' to run all tests
 
 # Useful commands/info
 1. Command 'npm run test:headed' will run tests in headed mode, which will enable you to see the test running in the browser
